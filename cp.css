@@ -1,0 +1,314 @@
+@media(max-width:767px){
+	.cover-b{
+		color:white;
+	}
+}
+.events-read-more{
+	font-size: 20px;
+	font-family: monospace;
+	text-decoration: none;
+
+}
+.events-read-more:hover{
+	text-decoration: none;
+	color: #ff7e75;
+	border: 3px solid #ff7e75;
+	border-radius: 25%;
+	padding: 4px;
+	
+
+
+}
+body{
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+.round img{
+	border-radius: 25px;
+}
+.navbar-toggler-icon {
+	background-color: white!important;
+}
+.cover-image{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/cover/1.jpg);
+	height:90vh;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+	padding:10px;
+}
+.card-text{
+	text-align: left;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	display: flex;
+	padding-top: 10px;
+}
+dd{
+	display: flex;
+}
+ul li a{
+	color:white;
+	font-size:20px;
+}
+.dd button{
+	margin-left: 15%;
+}
+	
+.dd #selector1{
+	margin-left: 20px;
+	width: 200px;
+}
+.DD{
+	font-size:20px;
+	padding-top: 20px;
+	margin-left: 10px ;
+	width:300px;
+}
+.DD h4{
+	text-align: center;
+}
+.dropdown .width{
+	background-color:white;
+	width:210px;
+	color:black;
+}
+.dropdown .width:hover{
+	background-color:#F0E68C;
+	
+}
+ul li a{
+	margin-right: 15px;
+	border-radius: 100%;
+	padding:6px;
+
+}
+ul li a:hover{
+
+	transition: 0.6s ease;
+	color:black;
+	background-color: white;
+	text-decoration : none;
+}
+.cover{
+	background-color: none;
+}
+.ref{
+	color:white;
+}
+.ddbgc{
+	background: rgba(0,0,0,0.3);
+    border-radius: 3px;
+    padding: 1em;
+}
+/*breif start*/
+.breif p{
+	text-align: center;
+
+}
+/*breif end*/
+
+/*footer start*/
+.footer{
+	display: flex;
+	margin-left: 10%;
+}
+.footer h5{
+	margin: 30px;
+}
+.footer h5,p{
+	text-align: center;
+}
+footer h3{
+	text-align: center;
+	
+}
+footer p{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.footer p span{
+	margin: 10px;
+}
+.copyright {
+	text-align: center; font-family: sans-serif;  font-size: 20px; margin-bottom: 20px;
+}
+.copyright span{
+	font-weight: bold;
+}
+
+.mm{
+	display: none;
+	clear: both;
+}
+.img-browser{
+	width: 40%;
+}
+.about-new{
+	display: flex;
+}
+.img-2{
+	display: none;
+}
+/*footer end*/
+
+@media (max-width: 967px){
+	.carosel-caption h1{
+		font-size: 20px;
+	}
+	.ss{
+		display: none;
+	}
+	.mm{
+		display: inline;
+	}
+	.card-body{
+		margin-left: 15%;
+	}
+	.carousel-item{
+/*		margin-left: 19%;
+*/	}
+}
+@media (max-width: 767px) {
+	.cover-image{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/cover/1.jpg);
+	height:80vh;
+	width:80%;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio-item-wrapper{
+	margin-left: 10%;
+}
+/*.comm-img{
+	background-color: 
+}*/
+.carousel-item{
+		/*margin-left: 15%;*/
+	}
+
+
+
+
+	.carosel-caption h1{
+		font-size: 20px;
+		margin-top: -20%;
+		
+	}
+	
+
+	.dropdown .width{
+	background-color:white;
+	width:100px;
+	color:black;
+	margin-left: 0%;
+}
+.DD h4{
+  font-size: 13px;
+}
+.dropdown .width:hover{
+	background-color:#F0E68C;
+	
+}
+
+.footer{
+    display: block;
+    margin: 10%;
+}
+.copyright{
+	font-size: 17px;
+}
+.sort{
+	display: block;
+	}
+.ss{
+	display: none;
+}
+.about-new{
+	display: block;
+
+}
+.img-1{
+	display: none;
+}
+.img-2{
+	display: block;
+}
+.img-browser{
+	width: 100%;
+}
+
+}
+
+/*media end*/
+.community{
+ display: flex;
+ margin-left: 120px;
+}
+.C3{
+	margin-left: 50px;
+	
+}
+
+/*hover*/
+
+.portfolio-items-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/*margin-left: 70px;*/
+}
+
+.portfolio-item-wrapper{
+	position: relative;
+}
+
+.portfolio-img-background{
+	height:290px;
+	width:300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.img-text-wrapper {
+	position: absolute;
+	top: 0;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height :100%;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+
+
+}
+.img-text-wrapper .subtitle a{
+	transition : 1s;
+	font-weight: 600;
+	color: transparent;
+	text-align: center;
+
+	
+}
+.img-text-wrapper:hover .subtitle a{
+	font-weight: 600;
+	color:#F0E68C;
+	text-decoration: none;
+
+	
+}
+.img-darken{
+	transition:1s;
+	filter:brightness(10%);
+}
+.footer h5 span{
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+}

@@ -1,0 +1,46 @@
+
+@media(
+    max-width: 767px
+)
+{
+    .image-width{
+        width:50%;
+        height:350px;
+    }
+    
+    .para-content-sub-image1{
+        width: 100%;
+        margin-left:  0px;
+
+    }
+    .div-margin{
+        margin: 0px;
+    }
+}
+.image-width{
+    height:500px;
+    width:100%; 
+    
+}
+.sub-image-width{
+    height:250px;
+    width:400px;
+    margin:20px;
+    
+}
+.para-content-sub-image1{
+    
+   /* width:400px;*/
+   width: 400px;
+    margin: 20px;
+}
+.heading{
+    text-align: center;
+    color:crimson;
+    padding:10px;
+}
+
+/*.div-margin{
+    margin-left:15%;
+}
+*/

@@ -1,0 +1,34 @@
+@media(max-width:767px){
+.main{
+	display:block;
+}
+
+}
+
+.c{
+	
+	display:flex;
+
+}
+.card-0{
+	margin-left: 9%;
+
+}
+.card-1{
+	margin-left: 5%;
+}
+/*.bgc{
+	background-color:#FFA07A;
+}*/
+.bgc-in{
+	padding:50px;
+}
+.padding{
+	padding:4px;
+	border-radius: 25px;
+	background-color: grey;
+}
+.margin{
+	margin-top: 30px;
+
+}
